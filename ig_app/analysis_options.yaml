@@ -1,0 +1,15 @@
+# Use Very Good analysis options
+include: package:very_good_analysis/analysis_options.6.0.0.yaml
+
+# Customize analyzer settings
+analyzer: 
+  exclude:
+    - lib/l10n/arb/*
+    - lib/**/*.g.dart
+    - packages/**/*.gen.dart
+    - packages/**/*.g.dart
+
+# Customize linting rules
+linter:
+  rules:
+    public_member_api_docs: false
